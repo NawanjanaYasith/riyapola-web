@@ -1,0 +1,32 @@
+.hero{
+    display: flex;
+    height: 89vh;
+    width: 100%;
+    background: #f9a826;
+}
+.hero-img{
+    display: flex;
+    width: 100%;
+}
+.text-container {
+    position: absolute;
+    top: 92%;
+    left: 12%;
+    transform: translate(-50%, -50%); /* Center the text container */
+    z-index: 1; /* Ensure text appears above the image */
+}
+.text-container h2{
+    position: relative;
+    top: 3px;
+}
+.text-container button{
+    position: relative;
+    top: 8px;
+}
+.text-container{
+    color: white;
+    font-weight: 600;
+}
+.btn{
+    cursor: pointer;
+}

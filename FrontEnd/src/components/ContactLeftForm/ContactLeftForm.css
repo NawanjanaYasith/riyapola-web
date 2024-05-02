@@ -1,0 +1,23 @@
+.left-form li{
+    margin-bottom: 13px;
+    color: #000d6b;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Times New Roman", serif;
+}
+.left-form ul button{
+    background-color: #000d6b;
+    color: white;
+}
+.name-textfield {
+    width: 800px;
+    height: 40px;
+}
+.email-textfield {
+    width: 800px;
+    height: 40px;
+}
+.message-textfield {
+    width: 800px;
+    height: 120px;
+}

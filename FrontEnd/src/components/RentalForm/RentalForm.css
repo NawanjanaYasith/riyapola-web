@@ -1,0 +1,74 @@
+.rent-from{
+    margin-top: 60px;
+    margin-left: 63px;
+    margin-bottom: 70px;
+    background: #ffb438;
+    width: 92%;
+    height: 220px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    display: flex;
+    flex-direction: column;
+}
+.input-fields{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.label-div{
+    display: flex;
+    gap: 80px;
+    margin-left: 85px;
+    margin-top: 60px;
+    /*justify-content: space-around;*/
+}
+.pickUp-loaction-field{
+    width: 320px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.pickUp-date-field{
+    width: 190px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.pickUp-time-field{
+    width: 190px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.dropoff-date-field{
+    width: 190px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.dropoff-time-field{
+    width: 190px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+.rent-from label{
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.findcar-button{
+    width: 105px;
+    height: 40px;
+    background-color: #000d6b;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}

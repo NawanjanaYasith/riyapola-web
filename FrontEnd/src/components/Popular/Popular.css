@@ -1,0 +1,27 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular h1{
+    color: #000d6b;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+.popular hr{
+    margin-top: 4px;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #000d6b;
+}
+.popular-vehicles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 50px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}

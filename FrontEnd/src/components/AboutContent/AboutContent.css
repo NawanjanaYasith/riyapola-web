@@ -1,0 +1,43 @@
+.left-about{
+    width: 540px;
+}
+.right-about{
+    width: 600px;
+}
+.left-about h2{
+    color: #f9a826;
+    font-family: "Times New Roman", serif;
+}
+.left-about h1{
+    margin-top: 8px;
+    color: #000d6b;
+    font-family: "Times New Roman", serif;
+}
+.right-about h1{
+    margin-top: 8px;
+    color: #000d6b;
+    font-family: "Times New Roman", serif;
+}
+.first-p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.second-p{
+    font-size: 18px;
+    margin-top: 13px;
+}
+.car-image{
+    height: 20px;
+}
+.left-right-container-first{
+    display:flex;
+    gap:60px;
+    justify-content:center;
+}
+.left-right-container-second{
+    margin-top: 90px;
+    display:flex;
+    gap:80px;
+    justify-content:center;
+}
+

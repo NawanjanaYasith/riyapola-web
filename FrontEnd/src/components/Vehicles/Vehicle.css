@@ -1,0 +1,50 @@
+.vehicle{
+    width:370px;
+    height: 385px;
+    box-shadow: 0 2px 2px -5px black;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.vehicle-img{
+    width: 340px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.vehicle p{
+    margin: 6px ;
+}
+.car-name{
+    display: flex;
+    justify-content: center;
+    color: #000d6b;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Times New Roman", serif;
+}
+.car-price{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000d6b;
+    font-family: "Times New Roman", serif;
+}
+.car-automatic-speed-model{
+    display: flex;
+    justify-content: space-around;
+}
+.car-rent-button{
+    background-color: #ffb438;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+
+}
+.rent-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

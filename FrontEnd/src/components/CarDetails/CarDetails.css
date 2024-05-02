@@ -1,0 +1,102 @@
+.carDetails-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.carDetails-right{
+    width: 500px;
+}
+.carDetails-image{
+    width: 580px;
+}
+.carDetails-right h2{
+    font-size: 35px;
+    color: #000d6b;
+    font-weight: 600;
+    font-family: "Times New Roman", serif;
+}
+.carDetails-right h5{
+    font-size: 25px;
+    color: #000d6b;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.carDetails-right p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.carDetails-right h1{
+    font-size: 16px;
+}
+.cardetails-other{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-bottom: 15px;
+}
+.cardetails-other2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.carDetails-right h1{
+    color: #ffb438;
+    font-weight: 600;
+}
+.booking-information{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr ;
+    gap: 40px;
+    margin-top: 30px;
+}
+.booking-information input{
+    width: 400px;
+    height: 30px;
+}
+.booking-information label{
+    /*color: #000d6b;*/
+    font-weight: 550;
+}
+.inputfor-write{
+    width: 1280px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+.booking-information-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.booking-information-container label{
+    margin-top: 30px;
+}
+.booking-information-container h2{
+    color: #000d6b;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.additonalinfo-text{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.reserve-button{
+    background-color: #000d6b;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+.reserve-btn-div{
+    display: flex;
+    justify-content: center;
+}

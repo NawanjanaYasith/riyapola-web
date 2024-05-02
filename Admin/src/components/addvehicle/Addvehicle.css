@@ -1,0 +1,58 @@
+.addvehicle{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+}
+.addvehicle-itemfield{
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+
+}
+.addvehicle-itemfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-size: 14px;
+}
+.image-upload{
+    height: 80px;
+    margin-top: 40px;
+}
+.btn-add{
+    width: 100px;
+    height: 40px;
+    background: #2929e8;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.addvehicle-main{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: white;
+    width: 150%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.addvehicle-btn-div{
+    display: flex;
+    justify-content: center;
+}
+.addvehicle-uploader-div{
+    display: flex;
+    justify-content: center;
+}

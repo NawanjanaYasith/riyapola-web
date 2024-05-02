@@ -1,0 +1,28 @@
+.addvehicle-img{
+    width: 34px;
+}
+.vehiclelist-img{
+    width: 34px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: 122vh;
+    background-color: white;
+    margin-top: 2px;
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #e8e2e2;
+    gap: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 295px;
+    background: #000d6b;
+    display: flex;
+    flex-direction: column; /* Changed to column to accommodate the added elements */
+    align-items: center; /* Centering the new elements */
+}
+
+.footer h4 {
+    margin-top: 35px;
+}
+
+.first-div {
+    width: 220px;
+}
+
+.first-div p {
+    color: #b0b5b9;
+}
+
+.first-div h4 {
+    margin-bottom: 20px;
+}
+
+.second-div li {
+    margin: 3px;
+    color: #b0b5b9;
+}
+
+.second-div h4 {
+    margin-bottom: 20px;
+}
+
+.third-div h4 {
+    margin-bottom: 20px;
+}
+
+.fourth-div h4 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.fourth-div p {
+    color: #b0b5b9;
+}
+
+.third-div li {
+    margin: 4px;
+    color: #b0b5b9;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.fourth-div input {
+    width: 185px;
+    height: 30px;
+    border-radius: 30px;
+    background: #03082f;
+    border: #000d6b;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footer-line {
+    width: 71%; /* Adjust as needed */
+    margin-top: 36px;
+    border-top: 0 solid #7a7a7a; /* Adjust color as needed */
+}
+
+.footer-lastText {
+    color: #7a7a7a;
+    margin-top: 25px; /* Adjust as needed */
+}

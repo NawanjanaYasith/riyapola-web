@@ -1,0 +1,39 @@
+.main-model-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 150px;
+    z-index: 1;
+    width: 60%;
+    height: 74%;
+    background-color: white;
+}
+.model-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border-radius: 5px;
+    padding:15px;
+    width: 25cm;
+}
+.model-input{
+    height: 20px;
+    width: 100%;
+}
+.submit-btn-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-btn{
+    width: 90px;
+    background-color: #000d6b;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
